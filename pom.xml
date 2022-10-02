@@ -79,33 +79,6 @@
         <!-- Docker image -->
         <docker.jib-maven-plugin.version>2.6.0</docker.jib-maven-plugin.version>
         <docker.image.prefix>springcommunity</docker.image.prefix>
-
-    </properties>
-    <repositories>
-       <repository>
-         <id>Feed1</id>
-         <url>https://pkgs.dev.azure.com/karunyachadaluri0277/Artifact/_packaging/Feed1/maven/v1</url>
-         <releases>
-         <enabled>true</enabled>
-         </releases>
-         <snapshots>
-         <enabled>true</enabled>
-         </snapshots>
-      </repository>
-    </repositories>
-    
-    <distributionManagement>
-       <repository>
-         <id>Feed1</id>
-         <url>https://pkgs.dev.azure.com/karunyachadaluri0277/Artifact/_packaging/Feed1/maven/v1</url>
-         <releases>
-         <enabled>true</enabled>
-         </releases>
-         <snapshots>
-         <enabled>true</enabled>
-         </snapshots>
-      </repository>
-    </distributionManagement>
     
     <dependencyManagement>
         <dependencies>
