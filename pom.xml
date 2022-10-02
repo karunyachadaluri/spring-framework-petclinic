@@ -79,7 +79,9 @@
         <!-- Docker image -->
         <docker.jib-maven-plugin.version>2.6.0</docker.jib-maven-plugin.version>
         <docker.image.prefix>springcommunity</docker.image.prefix>
-    
+
+    </properties>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -344,7 +346,7 @@
                     <downloadJavadocs>true</downloadJavadocs>
                     <wtpversion>2.0</wtpversion>
                     <sourceIncludes>
-                        <sourceInclude>**/*.*</sourceInclude>
+                        <sourceInclude>*/.*</sourceInclude>
                     </sourceIncludes>
                     <additionalBuildcommands>
                         <buildCommand>
